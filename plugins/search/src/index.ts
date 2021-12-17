@@ -42,6 +42,7 @@ export type {
   SearchBarProps,
   SearchBarBaseProps,
   SearchModalProps,
+  HomePageSearchBarProps,
 } from './components';
 export {
   DefaultResultListItem,
