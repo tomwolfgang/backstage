@@ -42,6 +42,8 @@ export type {
   SearchBarProps,
   SearchBarBaseProps,
   SearchModalProps,
+  SidebarSearchModalProps,
+  SidebarSearchProps,
   HomePageSearchBarProps,
 } from './components';
 export {
