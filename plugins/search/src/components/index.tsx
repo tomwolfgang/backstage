@@ -14,7 +14,6 @@
  * limitations under the License.
  */
 
-export * from './DefaultResultListItem';
 export * from './Filters';
 export * from './SearchBar';
 export * from './SearchContext';

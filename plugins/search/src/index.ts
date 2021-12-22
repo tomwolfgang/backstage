@@ -22,26 +22,7 @@
 
 export { searchApiRef } from './apis';
 export type { SearchApi } from './apis';
-export {
-  Filters,
-  FiltersButton,
-  SearchBar,
-  SearchContextProvider,
-  SearchFilter,
-  SearchFilterNext,
-  SearchModal,
-  SearchPage as Router,
-  SearchResultPager,
-  SearchType,
-  SidebarSearch,
-  useSearch,
-} from './components';
-export type {
-  SearchModalProps,
-  SidebarSearchModalProps,
-  SidebarSearchProps,
-} from './components';
-export type { FiltersState } from './components';
+export * from './components';
 export {
   DefaultResultListItem,
   HomePageSearchBar,

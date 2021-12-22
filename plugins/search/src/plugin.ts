@@ -137,7 +137,7 @@ export const DefaultResultListItem = searchPlugin.provide(
     name: 'DefaultResultListItem',
     component: {
       lazy: () =>
-        import('./components/DefaultResultListItem').then(
+        import('./components/DefaultResultListItem/DefaultResultListItem').then(
           m => m.DefaultResultListItem,
         ),
     },

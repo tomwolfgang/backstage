@@ -26,8 +26,8 @@ import {
 } from '@material-ui/core';
 import { Launch } from '@material-ui/icons/';
 import { makeStyles } from '@material-ui/core/styles';
-import { SearchBarBase } from '../SearchBar';
-import { DefaultResultListItem } from '../DefaultResultListItem';
+import { SearchBarBase } from '../SearchBar/SearchBar';
+import { DefaultResultListItem } from '../DefaultResultListItem/DefaultResultListItem';
 import { SearchResult } from '../SearchResult';
 import { SearchContextProvider, useSearch } from '../SearchContext';
 import { SearchResultPager } from '../SearchResultPager';

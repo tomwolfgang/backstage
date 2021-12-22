@@ -17,7 +17,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
-import { SearchBarBase } from '../SearchBar';
+import { SearchBarBase } from '../SearchBar/SearchBar';
 import { useNavigateToQuery } from '../util';
 
 const useStyles = makeStyles({
